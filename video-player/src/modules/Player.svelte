@@ -690,7 +690,7 @@
   on:touchmove={resetImmerse}
   on:keypress={resetImmerse}
   on:mouseleave={immersePlayer}>
-  <video
+  <video loop=""
     class="position-absolute h-full w-full"
     style={`margin-top: ${menubarOffset}px`}
     autoplay
